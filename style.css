@@ -36,7 +36,7 @@ header {
     margin-bottom: 20px;
     margin-right: 20px */
 
-    margin: 10px 20px;
+    /* margin: 10px 20px; */
     line-height: 2.2;
 }
 
@@ -44,7 +44,7 @@ header {
     list-style: none;
 }
 
-.btn {
+/* .btn {
     outline: none;
     box-shadow: none;
     background: transparent;
@@ -52,12 +52,12 @@ header {
     border: 1px solid rgb(146, 142, 142);
     padding: 10px 30px;
     border-radius: 20px;
-}
+} 
 
-.btn:hover {
+/* .btn:hover {
     background: red;
     cursor: pointer;
-}
+} */
 
 .logo {
     margin-top: 22px;
@@ -79,4 +79,71 @@ header {
 .site-nav ul {
     margin-bottom: 35px;
 
+}
+.hero-section p {
+    text-align: center;
+}
+
+.hero-section{
+    margin: 0 3rem ;
+    display: flex;
+    gap: 12rem;
+}
+form {
+    padding-bottom: 30px;
+}
+.form-control {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    padding: 10px 25px;
+    border: 1px solid rgb(112, 105, 105);
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 30px;
+    width: 290px;
+}
+
+.hero-btn {
+     color: #fff;
+    border-radius: 20px;
+    border: 1px solid rgb(112, 105, 105);
+    background: #25DAC5;
+    padding: 10px 25px;
+    width: 85%;
+    margin-top: 30px;
+    /* width: 246px; */
+
+}
+
+form input  {
+    width: 100%;
+    
+}
+
+.inputt{
+    display: block;
+}
+small {
+    color: rgb(112, 105, 105);
+}
+.tom {
+    position: relative;
+    top: 110px;
+    left: 210px;
+}
+.jerry{
+    position: absolute;
+}
+
+.low-p {
+    display: flex;
+    float: inline-end;
+    margin-right: 17rem;
+}
+
+.low-p p {
+    text-align: justify;
+    width: 50%;
+    color: rgb(112, 105, 105);
 }
